@@ -1,0 +1,14 @@
+#include "my_keyboard.dtsi" // The shared dtsi file is included in the overlay
+
+// Label of the kscan node in the dtsi
+&kscan0 {
+    col-gpios
+        = <&pro_micro 10 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 11 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+&default_transform { // Offset of 3 because the left side has 3 columns
+    col-offset = <3>;
+};
