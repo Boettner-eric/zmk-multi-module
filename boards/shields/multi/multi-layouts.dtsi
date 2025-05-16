@@ -4,7 +4,8 @@
     layout_0: layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Layout 0";
-
+        transform = <&default_transform>; // Label of the matrix transform this layout uses
+        kscan = <&kscan0>; // Label of the kscan node this layout uses
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>

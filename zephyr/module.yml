@@ -1,7 +1,7 @@
 name: zmk-keyboard-multi
 build:
-  depends:
-    - zmk-example-dependency
+  # depends:
+  #   - zmk-example-dependency
   cmake: .
   kconfig: Kconfig
   settings:
