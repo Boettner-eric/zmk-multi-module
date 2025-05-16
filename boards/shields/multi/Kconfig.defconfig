@@ -15,6 +15,3 @@ config ZMK_SPLIT
     default y
 
 endif
-
-config CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 3
