@@ -1,3 +1,7 @@
+# No whitespace after the comma or in the keyboard name!
+config SHIELD_MY_KEYBOARD_CONTROL
+    def_bool $(shields_list_contains,multi_control)
+
 # No whitespace after the comma or in your part name!
 config SHIELD_MY_KEYBOARD_LEFT
     def_bool $(shields_list_contains,multi_left)

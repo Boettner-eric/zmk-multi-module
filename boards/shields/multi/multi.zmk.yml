@@ -9,5 +9,6 @@ features:
   - keys
   - studio
 siblings:
+  - multi_control
   - multi_left
   - multi_right
