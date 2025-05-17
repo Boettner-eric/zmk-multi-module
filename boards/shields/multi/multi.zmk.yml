@@ -2,7 +2,7 @@ file_format: "1"
 id: multi
 name: Multi
 type: shield
-url: https://github.com/boettner-eric/zmk-multi-keyboard/
+url: https://github.com/boettner-eric
 requires: [pro_micro]
 exposes: []
 features:
