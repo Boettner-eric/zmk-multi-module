@@ -3,7 +3,7 @@ id: multi
 name: Multi
 type: shield
 url: https://github.com/boettner-eric
-requires: [pro_micro]
+requires: [nice_nano_v2]
 exposes: []
 features:
   - keys
