@@ -10,5 +10,5 @@ features:
   - studio
 siblings:
   - multi_control
-  - multi_left
-  - multi_right
+  - multi_peripheral_one
+  - multi_peripheral_two
