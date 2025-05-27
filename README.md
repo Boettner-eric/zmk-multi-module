@@ -9,15 +9,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: boettner-eric
-      url-base: https://github.com/boettner-eric
+    - name: Boettner-eric
+      url-base: https://github.com/Boettner-eric
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-multi-keyboard
-      remote: boettner-eric
+    - name: zmk-multi-module
+      remote: Boettner-eric
       revision: main
   self:
     path: config
